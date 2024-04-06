@@ -12,10 +12,9 @@
     padding: 0;
     margin: 0;
     font-family: "DM Sans", sans-serif;
-    
 }
-
-
+    
+/* FONDO DE LA PAGINA CON SU CAPA SUPERIOR PARA OSCURECER */
 body{
     background: linear-gradient(rgba(5,7,12,0.85),rgba(5,7,12,0.85)), url(/public/img/fondo.jpg);
     background-size: cover;
@@ -25,7 +24,7 @@ body{
     height: 100%;
     
 }
-
+/* PARTE DE DOMICILIOS GRATIS */
 .superior{
     background-color: var(--cafe_claro);
     z-index: 10;
@@ -41,7 +40,7 @@ body{
     position: fixed;
     border-bottom: 3px solid var(--negro);
 }
-
+/* -------------------------------LOGO, NOMBRE Y NAV -------------------------------- */
 .logo{
     width: 100px;
     height: auto;
@@ -100,7 +99,7 @@ body{
     font-size: large;
     text-decoration: none;
 }
-
+/* --------------------------------------------CONTENEDOR DEL MENU CON SUS MINICONTENEDORES QUE CONTIENEN LOS PRODCTOS-------------------------- */
 .contenedor{
 display: flex;
 flex-direction: row;
@@ -156,7 +155,7 @@ h2{
 .price{
     font-weight: bold;
 }
-
+/* ---------------------------------FOOTER------------------------------------- */
 .footer{
     margin-top: 60px;
     background-color: var(--cafe_claro);
